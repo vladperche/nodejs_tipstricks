@@ -22,3 +22,12 @@ On a Terminal of a running docker container, execute:
 # mongosh
 > db.adminCommand( { listDatabases: 1 } )
 ```
+
+# List Collections
+
+On a Terminal of a Runing docker container, execute:
+
+```
+# mongosh
+> db.runCommand({ listCollections: 1 })
+```
